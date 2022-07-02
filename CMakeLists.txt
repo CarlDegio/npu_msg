@@ -23,8 +23,7 @@ find_package(rosidl_default_generators REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Direction.msg"
-  "msg/Pos.msg"
+  "msg/Armpkg.msg"
  )
 
 if(BUILD_TESTING)
